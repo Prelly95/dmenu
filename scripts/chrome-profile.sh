@@ -1,5 +1,5 @@
-choise="Pat\nAirsight\nBorne"
-prof=$(printf $choise | dmenu -i -p "Google Chrome Profile")
+choice="Pat\nAirsight\nBorne"
+prof=$(printf $choice | dmenu -i -p "Google Chrome Profile")
 
 case $prof in
 	"Pat")
