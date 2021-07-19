@@ -3,11 +3,7 @@
 
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
-static const char *fonts[] ={	"monospace:size=18",
-								"Font Awesome 5 Brands:size=20",
-								"Font Awesome 5 Free:size=20",
-								"FontAwesome:size=20",
-								"Liberation Mono:size=18"
+static const char *fonts[] ={ "FontAwesome:size=34"
 							};
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {

@@ -3,15 +3,15 @@ prof=$(printf $choice | dmenu -i -p "Firefox User Profile")
 
 case $prof in
 	"Pat")
-		firefox --profile "~/.mozilla/.mozilla/firefox/*.pat/"
+		firefox --profile ~/.mozilla/firefox/*.default/
 		;;
 
 	"Airsight")
-		firefox --profile "~/.mozilla/.mozilla/firefox/*.airsight/"
+		firefox --profile ~/.mozilla/firefox/*.airsight/
 		;;
 
 	"Borne")
-		firefox --profile "~/.mozilla/.mozilla/firefox/*.borne/"
+		firefox --profile ~/.mozilla/firefox/*.borne/
 		;;
 	*)
 		;;
